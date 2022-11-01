@@ -5,7 +5,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: black;
+    background-color: rgb(24, 23, 23);
 }
 
 #container {
@@ -20,7 +20,6 @@ body {
 .pealkiri {
         display: block;
         color:white;
-        background: black;
         position: relative;
         text-shadow: 4px 4px rgb(55, 52, 52);
         font-size: 80px;
