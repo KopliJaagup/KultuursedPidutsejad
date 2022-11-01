@@ -1,1 +1,46 @@
- 
+body {
+        text-align:center;
+        position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+}
+
+#container {
+        position: absolute;
+        left: 50%;
+        top: 30%;
+        text-align: center;
+        transform: translate(-50%,-50%);
+        width: 100%;
+}
+
+.pealkiri {
+        display: block;
+        color:white;
+        background: black;
+        position: relative;
+        text-shadow: 4px 4px rgb(55, 52, 52);
+        font-size: 80px;
+        font-family:Arial, Helvetica, sans-serif;
+}
+
+a {
+        color: white;
+        font-family:Arial, Helvetica, sans-serif;
+        background-color: rgb(44, 42, 42);
+        border: 2px solid blueviolet;
+        border-radius: 4px;
+        padding: 10px 10px;
+        text-align: center;
+        display: inline-block;
+        text-decoration: none;
+        list-style-type: none;
+        margin: 5px;
+
+}
+a:hover, a:active {
+        background-color: red;
+}
