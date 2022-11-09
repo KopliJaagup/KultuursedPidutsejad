@@ -1,0 +1,55 @@
+.pealkiri{
+    display: block;
+    color:pink;
+    position: relative;
+    text-shadow: 2px 2px rgb(55, 52, 52);
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.tekst {
+    font-size: large;
+    color: blue;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    color: aqua;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    
+}
+
+.dropdown-content { 
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 4);
+    color: aqua;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    width: 70px;
+}
+
+.dropdown-content a {
+    display: block;
+    color: aqua;
+    padding:  5px;
+    text-decoration: none;
+    background-color: blueviolet;
+
+}
+
+.dropdown button {
+    border-radius: 70%;
+    border: green 2px;
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 4);
+}
