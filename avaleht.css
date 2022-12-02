@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
 
 body{
     background-color: beige;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .dropdown {
@@ -47,12 +53,12 @@ body{
 }
 
 .pealkiri {
-    float: left;
+    float: center;
     font-size: xx-large;
 }
 .pealkiri iframe {
     width: 100%;
-    float: left;
+    float: center;
 }
 
 .sisu {
@@ -64,5 +70,4 @@ body{
 
 .baarinimi {
     font-size: xx-large;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
