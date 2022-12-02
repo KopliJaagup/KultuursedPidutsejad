@@ -6,7 +6,7 @@
 body{
     background-image: url(background.png);
     background-size: cover;
-
+     
 }
 a:link {
     color:bisque;
@@ -22,19 +22,19 @@ a:visited{
     text-shadow: 2px 2px rgb(55, 52, 52);
     font-size: 40px;
     margin-right: 200px;
-
+     
 }
 
 .baarinimi {
     font-size: xx-large;
     color: white;
-}
+     }
 
 .review {
     font-size: large;
     color: white;
     margin-right: 200px;
-}
+     }
 
 .dropdown {
     display: inline-block;
