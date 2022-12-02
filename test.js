@@ -240,3 +240,6 @@ const disableKüsimusBlock = (küsimusID, valitudVastus) => {
     })
     
 }
+
+// Code by Ania Kubòw
+//https://www.youtube.com/watch?v=7x2Zk1qwBBU
