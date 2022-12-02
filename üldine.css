@@ -8,13 +8,16 @@ body{
     background-size: cover;
 
 }
+
 a:link {
     color:bisque;
 
 }
+
 a:visited{
     color: bisque;
 }
+
 .pealkiri{
     display: block;
     color:pink;
@@ -40,7 +43,6 @@ a:visited{
     display: inline-block;
     position: relative;
     color: aqua;
-    float: right;
     margin-right: 20px;
     margin-top: 20px;
 
@@ -48,19 +50,21 @@ a:visited{
 
 .dropdown-content { 
     display: none;
-    position: absolute;
-    width: 100%;
+    position:  absolute;
     overflow: auto;
     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 4);
     color: aqua;
+    border-radius: 10%;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
-    width: 70px;
+    background-color: brown;
 }
 
+
 .dropdown-content a {
+    width:fit-content;
     display: block;
     color: aqua;
     padding:  5px;
@@ -68,10 +72,12 @@ a:visited{
 
 }
 
-
 .dropdown button {
+    /*-webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;*/
+    border: 3px solid black;
     border-radius: 70%;
-    border: green 2px;
     background-color: blue;
     height: 50px;
     width: 50px;
