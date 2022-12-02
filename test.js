@@ -239,4 +239,8 @@ const disableKüsimusBlock = (küsimusID, valitudVastus) => {
         }
     })
     
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> Liina
